@@ -1,0 +1,35 @@
+﻿<Window x:Class="CookbookServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookbookServer"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="MainWindow" Height="350" Width="400">
+  <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="auto"/>
+        <RowDefinition Height="auto"/>
+        <RowDefinition Height="auto"/>
+        <RowDefinition Height="auto"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+      <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+
+      <TextBlock Grid.Row="0" Grid.Column="0">Remote IP:</TextBlock>
+      <TextBox Grid.Row="1" Grid.Column="0" x:Name="ipTextBox">127.0.0.1</TextBox>
+
+      <TextBlock Grid.Row="0" Grid.Column="1" Background="AliceBlue">Local port:</TextBlock>
+      <TextBox Grid.Row="1" Grid.Column="1" Background="AliceBlue" x:Name="localPortTextBox">5001</TextBox>
+
+
+      <Button Grid.Row="2" Grid.ColumnSpan="2" x:Name="startBtn" Click="StartBtn_Click">Start</Button>
+      <ScrollViewer Grid.Row="4" Grid.ColumnSpan="2">
+        <TextBlock x:Name="outputTextBox" TextWrapping="Wrap"></TextBlock>
+      </ScrollViewer> 
+  </Grid>
+</Window>

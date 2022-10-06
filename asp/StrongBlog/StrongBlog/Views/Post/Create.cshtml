@@ -1,0 +1,38 @@
+﻿@using BlogDbLibrary.Models
+@model Post
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post">
+    <div class="border p-3 mt-4">
+       <div class="row">
+           <h2>Create post</h2>
+           <hr />
+       </div>
+       <div asp-validation-summary="All"></div>
+       <div class="mb-3">
+           <label asp-for="Title"></label>
+           <input asp-for="Title" class="form-control">     
+           <span asp-validation-for="Title" class="form-text text-muted"></span>
+       </div>
+       <div class="mb-3">
+           <label asp-for="Publisher"></label>
+           <input asp-for="Publisher" class="form-control">     
+           <span asp-validation-for="Publisher" class="form-text text-muted"></span> 
+       </div>
+       <div class="mb-3">
+           <label asp-for="Text"></label>
+           <textarea asp-for="Text" class="form-control auto-resize"></textarea>
+           <span asp-validation-for="Text" class="form-text text-muted"></span>
+       </div>
+       <button type="submit" class="btn btn-primary">Add</button>
+       <a asp-controller="Post" asp-action="Index" class="btn btn-secondary">Return</a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

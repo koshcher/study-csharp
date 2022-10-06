@@ -1,0 +1,153 @@
+﻿<Window x:Class="SignUpBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SignUpBinding"
+        mc:Ignorable="d"
+        Title="Sign Up Binding App" Height="450" Width="363.846"
+        Background="Orange" Foreground="Yellow">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="Yellow"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="5,0,0,0"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="3" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="{x:Type PasswordBox}">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="5,0,0,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border CornerRadius="3" Background="White" BorderBrush="LightGray" BorderThickness="1" OpacityMask="{x:Null}">
+                            <ScrollViewer SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" x:Name="PART_ContentHost" Template="{DynamicResource ScrollViewerControlTemplate1}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+
+        <Style TargetType="{x:Type RadioButton}">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Yellow"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Margin="5" FontSize="16" HorizontalAlignment="Left">Sign Up</TextBlock>
+
+        <Grid Grid.Row="1" Background="DarkSlateBlue">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="{Binding FirstName, Mode=OneWay}"/>
+            <TextBox x:Name="firstNameTextBox" Text="Enter First Name..." GotKeyboardFocus="TextBox_GotKeyboardFocus" LostKeyboardFocus="TextBox_LostKeyboardFocus" Grid.Row="0" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding LastName, Mode=TwoWay }"/>
+            <TextBox x:Name="lastNameTextBox" Text="Enter Last Name..." GotKeyboardFocus="TextBox_GotKeyboardFocus" LostKeyboardFocus="TextBox_LostKeyboardFocus" Grid.Row="1" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="{Binding ScreenName}"/>
+            <TextBox x:Name="screenNameTextBox" Text="Enter Screen Name..." GotKeyboardFocus="TextBox_GotKeyboardFocus" LostKeyboardFocus="TextBox_LostKeyboardFocus" Grid.Row="2" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="{Binding BirthDate}"/>
+            <Grid Grid.Row="3" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox x:Name="monthComboBox" Grid.Column="0" SelectionChanged="monthComboBox_SelectionChanged"></ComboBox>
+                <ComboBox x:Name="dayComboBox" Grid.Column="1"></ComboBox>
+                <ComboBox x:Name="yearComboBox" Grid.Column="2" SelectionChanged="yearComboBox_SelectionChanged"></ComboBox>
+            </Grid>
+
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="{Binding Gender}"/> 
+            <Grid Grid.Row="4" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="maleRadioButton" IsChecked="True" Grid.Column="0">Male</RadioButton>
+                <RadioButton x:Name="femaleRadioButton" Grid.Column="1">Female</RadioButton>
+            </Grid>
+
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="{Binding Country}"/>
+            <ComboBox x:Name="countryComboBox" Grid.Row="5" Grid.Column="1"></ComboBox>
+
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="{Binding Email}"/>
+            <TextBox x:Name="emailTextBox" Text="Enter E-mail..." GotKeyboardFocus="TextBox_GotKeyboardFocus" LostKeyboardFocus="TextBox_LostKeyboardFocus" Grid.Row="6" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="{Binding Phone}"/>
+            <TextBox x:Name="phoneTextBox" Text="Enter Phone..." GotKeyboardFocus="TextBox_GotKeyboardFocus" LostKeyboardFocus="TextBox_LostKeyboardFocus" Grid.Row="7" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="8" Grid.Column="0" Text="{Binding Password}"/>
+            <PasswordBox x:Name="passwordTextBox" Grid.Row="8" Grid.Column="1"></PasswordBox>
+
+            <TextBlock Grid.Row="9" Grid.Column="0" Text="{Binding ConfirmPassword}"/>
+            <PasswordBox x:Name="confirmPasswordTextBox" Grid.Row="9" Grid.Column="1"></PasswordBox>
+
+            <TextBlock Grid.Row="10" Grid.Column="0" Text="{Binding IsAgreeWithTerms}"/>
+            <CheckBox x:Name="isAgreeCheckBox" Grid.Row="10"  Grid.Column="1" Margin="5" Foreground="Yellow">I agree to the Terms of Use</CheckBox>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="Submit" Grid.Column="1" Content="submit" Background="LimeGreen" Click="Submit_Click"/>
+            <Button x:Name="Exit" Grid.Column="2" Content="exit" Background="Tomato" Click="Exit_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

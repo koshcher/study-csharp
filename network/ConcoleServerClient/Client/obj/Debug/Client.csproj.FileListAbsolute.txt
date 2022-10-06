@@ -1,0 +1,8 @@
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\bin\Debug\Client.exe.config
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\bin\Debug\Client.exe
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\bin\Debug\Client.pdb
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\obj\Debug\Client.exe
+C:\Users\roman\Git\koshcher\study\server\ConcoleServerClient\Client\obj\Debug\Client.pdb

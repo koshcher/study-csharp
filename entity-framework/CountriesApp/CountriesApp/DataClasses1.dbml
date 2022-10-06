@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CountriesDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=sqland.database.windows.net;Initial Catalog=CountriesDB;Persist Security Info=True;User ID=sqlander" SettingsObjectName="CountriesApp.Properties.Settings" SettingsPropertyName="CountriesDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Countries" Member="Countries">
+    <Type Name="Country">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CountCitizens" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Square" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Region" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Country_MajorCity" Member="MajorCities" ThisKey="Id" OtherKey="Country" Type="MajorCity" />
+      <Association Name="Region_Country" Member="Region1" ThisKey="Region" OtherKey="Id" Type="Region" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MajorCities" Member="MajorCities">
+    <Type Name="MajorCity">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CountCitizens" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Capital" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Country_MajorCity" Member="Country1" ThisKey="Country" OtherKey="Id" Type="Country" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Regions" Member="Regions">
+    <Type Name="Region">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Region_Country" Member="Countries" ThisKey="Id" OtherKey="Region" Type="Country" />
+    </Type>
+  </Table>
+</Database>

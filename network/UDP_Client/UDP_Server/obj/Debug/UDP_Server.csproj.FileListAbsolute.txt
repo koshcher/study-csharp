@@ -1,0 +1,16 @@
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\bin\Debug\UDP_Server.exe.config
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\bin\Debug\UDP_Server.exe
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\bin\Debug\UDP_Server.pdb
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\obj\Debug\UDP_Server.exe
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Server\obj\Debug\UDP_Server.pdb
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\bin\Debug\UDP_Server.exe.config
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\bin\Debug\UDP_Server.exe
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\bin\Debug\UDP_Server.pdb
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\obj\Debug\UDP_Server.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\obj\Debug\UDP_Server.exe
+C:\Users\roman\Git\koshcher\study\network\UDP_Client\UDP_Server\obj\Debug\UDP_Server.pdb

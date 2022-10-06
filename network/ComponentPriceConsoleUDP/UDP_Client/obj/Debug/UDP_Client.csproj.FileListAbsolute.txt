@@ -1,0 +1,15 @@
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\bin\Debug\UDP_Client.exe.config
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\bin\Debug\UDP_Client.exe
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\bin\Debug\UDP_Client.pdb
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\obj\Debug\UDP_Client.csprojAssemblyReference.cache
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\obj\Debug\UDP_Client.csproj.CoreCompileInputs.cache
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\obj\Debug\UDP_Client.exe
+D:\ASP.NET\ITStepLesons\NetLessons\PV011\Lesson2\UDP_Client\UDP_Client\obj\Debug\UDP_Client.pdb
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\bin\Debug\UDP_Client.exe.config
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\bin\Debug\UDP_Client.exe
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\bin\Debug\UDP_Client.pdb
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\obj\Debug\UDP_Client.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\obj\Debug\UDP_Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\obj\Debug\UDP_Client.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\obj\Debug\UDP_Client.exe
+C:\Users\roman\Git\koshcher\study\server\UDP_Client\UDP_Client\obj\Debug\UDP_Client.pdb

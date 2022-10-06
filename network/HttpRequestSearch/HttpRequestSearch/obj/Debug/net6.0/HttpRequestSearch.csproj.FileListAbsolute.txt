@@ -1,0 +1,15 @@
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\bin\Debug\net6.0\HttpRequestSearch.exe
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\bin\Debug\net6.0\HttpRequestSearch.deps.json
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\bin\Debug\net6.0\HttpRequestSearch.runtimeconfig.json
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\bin\Debug\net6.0\HttpRequestSearch.dll
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\bin\Debug\net6.0\HttpRequestSearch.pdb
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.AssemblyInfoInputs.cache
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.AssemblyInfo.cs
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.dll
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\refint\HttpRequestSearch.dll
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.pdb
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\HttpRequestSearch.genruntimeconfig.cache
+C:\Users\roman\Git\koshcher\study\network\HttpRequestSearch\HttpRequestSearch\obj\Debug\net6.0\ref\HttpRequestSearch.dll

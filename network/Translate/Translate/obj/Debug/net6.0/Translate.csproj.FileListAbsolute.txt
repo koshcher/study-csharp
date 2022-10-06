@@ -1,0 +1,15 @@
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\bin\Debug\net6.0\Translate.exe
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\bin\Debug\net6.0\Translate.deps.json
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\bin\Debug\net6.0\Translate.runtimeconfig.json
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\bin\Debug\net6.0\Translate.dll
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\bin\Debug\net6.0\Translate.pdb
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.csproj.AssemblyReference.cache
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.AssemblyInfoInputs.cache
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.AssemblyInfo.cs
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.csproj.CoreCompileInputs.cache
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.dll
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\refint\Translate.dll
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.pdb
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\Translate.genruntimeconfig.cache
+C:\Users\roman\Git\koshcher\study\network\Translate\Translate\obj\Debug\net6.0\ref\Translate.dll

@@ -1,0 +1,7 @@
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\bin\Debug\dz_2_set1.exe.config
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\bin\Debug\dz_2_set1.exe
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\bin\Debug\dz_2_set1.pdb
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\obj\Debug\dz_2_set1.csproj.AssemblyReference.cache
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\obj\Debug\dz_2_set1.csproj.CoreCompileInputs.cache
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\obj\Debug\dz_2_set1.exe
+D:\Студия работы\C#\dz_2_set1\dz_2_set1\obj\Debug\dz_2_set1.pdb

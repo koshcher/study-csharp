@@ -1,0 +1,53 @@
+﻿<Window x:Class="VegetableWarehouseApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VegetableWarehouseApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="877.1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="362*"/>
+            <ColumnDefinition Width="509*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Column="0" x:Name="dataGrid"/>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="217*"/>
+                <ColumnDefinition Width="327*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">Введите информацию для запроса, если она требуется (для диапазона введите числа через пробел)</TextBlock>
+            <TextBox x:Name="input" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+            <Button Grid.Row="2" Grid.Column="0" Click="AllInfo">Вся информация</Button>
+            <Button Grid.Row="3" Grid.Column="0" Click="AllNames" >всех названий овощей и фруктов</Button>
+            <Button Grid.Row="4" Grid.Column="0" Click="AllColors" >всех цветов</Button>
+            <Button Grid.Row="5" Grid.Column="0" Click="MaxCalories">максимальную калорийность</Button>
+            <Button Grid.Row="6" Grid.Column="0" Click="MinCalories">минимальную калорийность</Button>
+            <Button Grid.Row="7" Grid.Column="0" Click="AverageCalories">среднюю калорийность</Button>
+            <Button Grid.Row="8" Grid.Column="0" Click="VegetableCount">количество овощей</Button>
+
+            <Button Grid.Row="2" Grid.Column="1" Click="FruitCount">количество фруктов</Button>
+            <Button Grid.Row="3" Grid.Column="1" Click="CountInputColor">количество продукты заданного цвета</Button>
+            <Button Grid.Row="4" Grid.Column="1" Click="CountEachColor">количество продукты каждого цвета</Button>
+            <Button Grid.Row="5" Grid.Column="1" Click="LessCalories">продукты с калорийностью ниже указанной</Button>
+            <Button Grid.Row="6" Grid.Column="1" Click="MoreCalories">продукты с калорийностью выше указанной</Button>
+            <Button Grid.Row="7" Grid.Column="1" Click="RangeCalories">продукты с калорийностью в указанном диапазоне</Button>
+            <Button Grid.Row="8" Grid.Column="1" Click="YellowOrRedFood">желтые или красные продукты</Button>
+        </Grid>
+    </Grid>
+</Window>

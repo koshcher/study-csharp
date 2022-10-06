@@ -1,0 +1,10 @@
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\bin\Debug\dz_2_set2.exe.config
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\bin\Debug\dz_2_set2.exe
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\bin\Debug\dz_2_set2.pdb
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.csproj.AssemblyReference.cache
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.Form1.resources
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.Properties.Resources.resources
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.csproj.GenerateResource.cache
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.csproj.CoreCompileInputs.cache
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.exe
+D:\Студия работы\C#\dz_2_set2\dz_2_set2\obj\Debug\dz_2_set2.pdb
